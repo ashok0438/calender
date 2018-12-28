@@ -1,0 +1,207 @@
+    .container1 {
+        float: left;
+        width: 30%;
+        height: auto;
+        margin-right: 2%;
+        margin-left: 3%;
+    }
+    
+    .container2 {
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        margin-right: 2%;
+    }
+    
+    .container3 {
+        float: right;
+        width: 30%;
+        height: auto;
+        margin-right: 3%;
+    }
+    
+    body {
+        background-color: #20243F;
+    }
+    
+    nav {
+        background-color: #394166;
+        padding: 15px;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding-left: 2%;
+        margin-left: 5%;
+    }
+    
+    a:hover {
+        background-color: rgb(199, 44, 116);
+        text-decoration: none;
+    }
+    
+    nav img {
+        float: right;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+    
+    nav form {
+        float: right;
+        margin-right: 5%;
+        background-color: #394166;
+        width: auto;
+        color: white;
+    }
+    
+    .dropdown {
+        background-color: #394166;
+        color: white;
+        border: 0;
+        width: 50px;
+    }
+    
+    .aa {
+        background-color: #394166;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 3%;
+    }
+    
+    .bb {
+        height: auto;
+        background-color: #394166;
+        margin-bottom: 3%;
+        text-align: center;
+        color: white;
+    }
+    
+    .cc {
+        height: auto;
+        background-color: #394166;
+        margin-bottom: 3%;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
+    
+    .dd {
+        height: 70%;
+        background-color: #394166;
+        text-align: center;
+    }
+    
+    .ee {
+        height: auto;
+        background-color: #394166;
+        color: white;
+    }
+    
+    .ff {
+        height: auto;
+        background-color: #394166;
+        text-align: center;
+        color: white;
+    }
+    
+    .sidemenu {
+        height: auto;
+    }
+    
+    .sidemenu menu {
+        padding-inline-start: 0px;
+    }
+    
+    .sidemenu a {
+        background-color: #394166;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        margin-top: 1px;
+        width: justify;
+        display: block;
+        border-bottom-color: black;
+    }
+    
+    .back {
+        background-color: #00A7AD;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .button1 {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 40px solid #00A7AD;
+        text-align: center;
+        background-color: #394166;
+        color: white;
+    }
+    
+    .bb img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin-top: 10%;
+    }
+    
+    .bb p {
+        color: rgb(109, 103, 103);
+        padding-left: 10%;
+        padding-right: 10%
+    }
+    
+    .cc form {
+        color: gray;
+        text-align: center;
+    }
+    
+    .cc button {
+        background-color: #00A7AD;
+        color: white;
+        padding: 4%;
+        border: 0;
+    }
+    
+    .email {
+        color: rgb(216, 199, 199);
+        border: none;
+    }
+    
+    .ee header {
+        background-color: #CD2F46;
+        text-align: center;
+        padding: 10%;
+    }
+    
+    .ee main {
+        background-color: #E84A63;
+        height: 65%;
+        padding: 20px;
+    }
+    
+    .ff button {
+        background-color: #CD2F46;
+        border: none;
+        padding: 2%;
+    }
+    
+    .small {
+        color: slategrey;
+    }
+    
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        border: 1px gray;
+    }

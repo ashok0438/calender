@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>table</title>
+</head>
+
+<body>
+    <h3>tables</h3>
+    <form>
+        <input id="val" type="text">
+    </form>
+    <button type="button" onclick="tab()">click me</button>
+    <p id="ss"></p>
+    <script>
+        function tab() {
+            var x = document.getElementById("val").value;
+            var i;
+            var z = "";
+            for (i = 1; i <= 10; i++) {
+
+                z += x + "*" + i + "=" + (x * i) + "<br>";
+
+                document.getElementById("ss").innerHTML = z
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
